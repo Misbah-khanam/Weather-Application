@@ -5,11 +5,11 @@ import {useState, useEffect} from 'react';
 import './Search.css';
 
 const Search = () => {
-const [weather, setWeather] = useState(" ");
-  const [temperature, setTemperature] = useState(0);
-  const [humidity, setHumidity] = useState(0);
-  const [windSpeed, setWindSpeed] = useState(0);
-  const [pressure, setPressure] = useState(0);
+const [weather, setWeather] = useState("--");
+  const [temperature, setTemperature] = useState("--");
+  const [humidity, setHumidity] = useState("--");
+  const [windSpeed, setWindSpeed] = useState("--");
+  const [pressure, setPressure] = useState("--");
   const [location, setLocation] = useState(" ");
 
   const getData = async() => {
